@@ -23,5 +23,6 @@ def get_localdt_report(start_t = None, end_t = None):
     report_by_localdt(start_t, end_t)
 
 if __name__ == '__main__':
-    get_hourly_report()
-    get_localdt_report('31-08-2020-15:00', '31-08-2020-16:00')
+    run()
+    # get_hourly_report()
+    # get_localdt_report('31-08-2020-15:00', '31-08-2020-16:00')
